@@ -23,14 +23,14 @@ let regularStroke = 0;
 let veteranStroke = 0;
 let godStroke = 0; //voor witte rand als mode aangeklikt
 
-let song; //heel leuk muziekje
+//let song; //heel leuk muziekje
 
 
-function preload() {
+/*function preload() {
   song = loadSound('music')
-} //zorgt dat muziek aangaat
+} //zorgt dat muziek aangaat */
 
-function mouseReleased() {
+/*function mouseReleased() {
   if (mouseX > muteButton.xPos &&
 			mouseX < muteButton.xPos + muteButton.width &&
       mouseY > muteButton.yPos &&
@@ -42,7 +42,7 @@ function mouseReleased() {
     	song.play();
   	}
 	}
-} //zorgt dat je muziek uit kunt doen
+} //zorgt dat je muziek uit kunt doen */
 
 function setup() {
   createCanvas(xSize, ySize); //maakt canvas
