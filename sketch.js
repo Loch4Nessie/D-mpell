@@ -46,7 +46,7 @@ let godStroke = 0; //voor witte rand als mode aangeklikt
 
 function setup() {
   createCanvas(xSize, ySize); //maakt canvas
-  song.loop(); //zorgt dat het nummer de hele tijd herhaald
+  //song.loop(); //zorgt dat het nummer de hele tijd herhaald
 }
 
 function draw() {
