@@ -123,7 +123,7 @@ function draw() {
     
     fill('white');
     textSize(80);
-		text('DÜMPELL', 25, 125);    
+		text('DÃœMPELL', 25, 125);    
     //laat titel zien
     
 	} //maakt mainMenu
@@ -227,7 +227,7 @@ class player {
     noStroke();
     fill(this.r, this.g, this.b);
     rect(this.xPos, this.yPos, this.playerWidth, this.playerHeight);
-    		//creërt 'player'
+    		//creÃ«rt 'player'
   }
 
   move() {   
